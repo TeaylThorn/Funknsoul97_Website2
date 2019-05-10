@@ -1,0 +1,19 @@
+.header{
+  background-color: white;
+height:150px;
+}
+.nav{
+      background-color: rgb(255, 63, 218);
+}
+.shop{
+  background-color:rgb(255, 201, 245);
+height:350px;
+}
+.blog{
+  background-color: white;
+height:350px;
+}
+.contact{
+  background-color:rgb(255, 63, 218);
+height:400px;
+}
