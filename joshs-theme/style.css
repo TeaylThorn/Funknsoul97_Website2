@@ -1,0 +1,205 @@
+/*  
+Theme Name: Josh's Wordpress Site
+Theme URI: http://joshwhitkin.com
+Description: A style-free theme to get you started on an HTML5-based Wordpress theme of your own.
+Author: Me
+Author URI: http://joshwhitkin.com
+Version: 1
+*/
+
+body{
+    background-color: #3f3948;
+    font-size: 16px;
+    font-family: 'Arial', sans-serif;
+}
+
+.navbar{
+    font-size: 0.85em;
+    margin-bottom: 0px;
+}
+
+.navbar-brand{
+    font-size:2.5em;
+    font-weight: bolder;
+    letter-spacing: -3px;
+}
+
+
+.navbar-nav li a:hover{
+    background-color: transparent;
+}
+
+.navbar-toggle. icon-bar{
+    background-color: white;
+}
+
+a{
+    color: #fff;
+}
+
+a:hover{
+    color: #ed7d1e;
+}
+
+.orange{
+    color: darkorange;
+}
+
+
+.herobg{
+    background-color:rgb(137,5,244);
+    height: 757px;
+    background: url(images/hero-bg.jpg) no-repeat center center;
+    background-size: cover;
+    max-width: 1417px;
+}
+
+.herobg h1{
+    float: right;
+    color: #fff;
+    width: 340px;
+    font-size: 7.125em;
+    letter-spacing: -10px;
+    font-weight: 800;
+    line-height: 75%;
+    margin-top: 140px;
+    text-align: right;
+    font-family: 'Raleway', sans-serif;
+}
+
+.maincontainer{
+    background-color: white;
+    padding-bottom: 40px;
+}
+
+.main_text{
+    background-color: white;
+    height: auto;
+}
+
+.main_text h2{
+    color: darkorange;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.6em;
+}
+.main_text h3{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 1.3em;
+}
+
+.sidebar{
+    background-color: white;
+    height: 650px;
+}
+.aside_elements{
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+.aside_elements img{
+    display: block;
+    float: left;
+    margin-right: 10px;
+}
+.aside_elements h2{
+    color: darkorange;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.3em;
+}
+.excerts{
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+.excerts img{
+    display: block;
+    float: right;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 0px;
+}
+
+.excerts a{
+    color: #5f5d62;
+}
+.excerts h3{
+    color: #3f3948;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.3em;
+}
+
+.leftfoot p{
+    color: #fff;
+    margin: 10px.
+}
+.leftfoot img{
+    margin: 10px;
+}
+    
+.rightfoot p{
+    text-align: right;
+    margin: 10px;
+    color: #fff;
+}
+.rightfoot img{
+    float: right;
+    margin: 10px;
+}
+
+.footerbg{
+    height: auto;
+    background-color: black;
+    background:url("images/footer.jpg") no-repeat center center;
+    background-size: cover;
+    max-width: 1417px;
+}
+
+@media only screen and (max-width: 992px){
+    .leftfoot{
+        width: 50%;
+        padding-left: 0px;
+        padding-right: 0px;
+        float: left;
+    }
+    .rightfoot{
+        width: 50%;
+        padding-left: 0px;
+        padding-right: 0px;
+        float: right;
+    }
+}
+@media only screen and (max-width: 400px){
+    .herobg{
+        height: 500px;
+    }
+    .herobg h1{
+        float: none;
+        width: 221px;
+        font-size: 5.125em;
+        letter-spacing: -10px;
+        margin-top: 220px;
+        line-height: 80%;
+        letter-spacing: -9px;
+    }
+    .maincontainer{
+        padding-bottom: 10px;
+}
+    p{
+        font-size: 0.85em;
+    }
+    .footerbg{
+        max-width: 375px;
+    }
+    .leftfoot{
+        width: 50%;
+        padding-left: 10px;
+        padding-right: 10px;
+        float: left;
+    }
+    .rightfoot{
+        width: 50%;
+        padding-left: 10px;
+        padding-right: 10px;
+        float: right;
+    }
+}
+
