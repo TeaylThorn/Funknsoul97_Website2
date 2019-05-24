@@ -1,19 +1,253 @@
-.header{
-  background-color: white;
-height:150px;
+/*  
+Theme Name: Funknsoul97 Site
+Theme URI: http://funknsoul97.com
+Description: A style-free theme to get you started on an HTML5-based Wordpress theme of your own.
+Author: Teayl Thorn
+Author URI: http://funknsoul97.com
+Version: 1
+*/
+
+body {
+    /*background-color: white;*/
+    font-size: 16px;
+    font-family: 'Arial', sans-serif;
 }
-.nav{
-      background-color: rgb(255, 63, 218);
+
+
+
+.navbar-brand {
+    background-color: white;
 }
-.shop{
-  background-color:rgb(255, 201, 245);
-height:350px;
+
+.navbar-brand > img {
+    display: block;
+    vertical-align: middle;
+    width: 200px;
+    margin-left: auto; 
+    margin-right: auto;
 }
-.blog{
-  background-color: white;
-height:350px;
+
+
+.navbar-nav {
+    width: 100%;
+    text-align: center;
+    background-color: #ff1c96;
 }
-.contact{
-  background-color:rgb(255, 63, 218);
-height:400px;
+
+.navbar-nav li {
+    float: none;
+    display: inline-block;
+}
+
+
+a:link,
+a:visited {
+/*    background-color: #ff1c96;*/
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    display: inline-block;
+
+}
+
+a:hover,
+a:active {
+    background-color: white;
+}
+
+.orange {
+    color: darkorange;
+}
+
+
+.splashbg {
+    height: 1050px;
+    background-color: aqua;
+    background: url(images/Artboard2.jpg) no-repeat center center;
+    background-size: cover;
+    max-width: 1417px;
+}
+
+.splashbg h1 {
+    float: right;
+    color: rgb(0, 0, 0);
+    width: 340px;
+    font-size: 7.125em;
+    letter-spacing: -10px;
+    font-weight: 800;
+    line-height: 75%;
+    margin-top: 140px;
+    text-align: left;
+    font-family: 'Raleway', sans-serif;
+}
+
+.maincontainer {
+    background-color: white;
+    padding-bottom: 40px;
+}
+
+.main_text {
+    background-color: white;
+    height: auto;
+}
+
+.main_text h2 {
+    color: darkorange;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.6em;
+}
+
+.main_text h3 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 1.3em;
+}
+
+.card-deck .card {
+    
+}
+
+.sidebar {
+    background-color: white;
+    height: 650px;
+}
+
+.aside_elements {
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.aside_elements img {
+    display: block;
+    float: left;
+    margin-right: 10px;
+}
+
+.aside_elements h2 {
+    color: darkorange;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.3em;
+}
+
+.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    /*  float: left;*/
+    width: 180px;
+}
+
+.gallery:hover {
+    border: 1px solid #777;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+
+}
+
+.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+.gallery a {
+    color: #5f5d62;
+    text-align: center;
+}
+
+.gallery h3 {
+    color: #3f3948;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.3em;
+}
+
+.leftfoot p {
+    color: #fff;
+    margin: 10px.
+}
+
+.leftfoot img {
+    margin: 10px;
+}
+
+.rightfoot p {
+    text-align: right;
+    margin: 10px;
+    color: #fff;
+}
+
+.rightfoot img {
+    float: right;
+    margin: 10px;
+}
+
+.footerbg {
+    height: auto;
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+    .leftfoot {
+        width: 50%;
+        padding-left: 0px;
+        padding-right: 0px;
+        float: left;
+    }
+
+    .rightfoot {
+        width: 50%;
+        padding-left: 0px;
+        padding-right: 0px;
+        float: right;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+
+
+    .herobg {
+        height: 500px;
+    }
+
+    .herobg h1 {
+        float: none;
+        width: 221px;
+        font-size: 5.125em;
+        letter-spacing: -10px;
+        margin-top: 220px;
+        line-height: 80%;
+        letter-spacing: -9px;
+    }
+
+    .maincontainer {
+        padding-bottom: 10px;
+    }
+
+    p {
+        font-size: 0.85em;
+    }
+
+    .footerbg {
+        background-color: #f1f1f1;
+        padding: 10px;
+        text-align: center;
+
+    }
+
+    .leftfoot {
+        width: 50%;
+        padding-left: 10px;
+        padding-right: 10px;
+        float: left;
+    }
+
+    .rightfoot {
+        width: 50%;
+        padding-left: 10px;
+        padding-right: 10px;
+        float: right;
+    }
 }
