@@ -51,6 +51,12 @@ body {
     display: inline-block;
 }
 
+.navbar-default .navbar-nav > .active > a {
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0);
+    text-decoration-line: underline;
+}
+
 .tag {
     margin-top: 10%;
     margin-bottom: 10%;
@@ -134,48 +140,11 @@ font-family: 'Intro', sans-serif;
     padding-bottom: 40px;
 }
 
-.main_text {
-    background-color: white;
-    height: auto;
-}
-
-.main_text h2 {
-    color: darkorange;
-    font-family: 'Raleway', sans-serif;
-    font-size: 1.6em;
-}
-
-.main_text h3 {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 800;
-    font-size: 1.3em;
-}
 
 .card-deck .card {
     min-width: 220px;
 }
 
-.sidebar {
-    background-color: white;
-    height: 650px;
-}
-
-.aside_elements {
-    margin-top: 20px;
-    margin-bottom: 0px;
-}
-
-.aside_elements img {
-    display: block;
-    float: left;
-    margin-right: 10px;
-}
-
-.aside_elements h2 {
-    color: darkorange;
-    font-family: 'Raleway', sans-serif;
-    font-size: 1.3em;
-}
 
 .gallery {
     margin: 5px;
@@ -190,7 +159,6 @@ font-family: 'Intro', sans-serif;
 
 .gallery img {
     width: 100%;
-    height: auto;
 
 }
 
