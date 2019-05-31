@@ -56,6 +56,9 @@ body {
     margin-bottom: 10%;
     background-color: white;
     width: 30%;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
 
 }
 
@@ -75,18 +78,14 @@ a:active {
     background-color: white;
 }
 
-.orange {
-    color: darkorange;
-}
 
 
 .splashbg {
-    height: 1050px;
-    background-image: url(images/Artboard%202.png);
+    height: 400px;
+    background-image: url(images/Background%20Image.jpg);
     background-color: aqua;
     background-size: cover;
     width: 100%;
-
 }
 
 
@@ -104,7 +103,31 @@ text-align: left;
 font-family: 'Intro', sans-serif;
 }
 */
+.btn {
+    color: #fff;
+    background-color: #ff1c96;
+    border-color: #c7006b;
+    font-weight: 700;
+}
 
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
 
 .maincontainer {
     background-color: white;
@@ -214,7 +237,12 @@ font-family: 'Intro', sans-serif;
     text-align: center;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 800px) {
+    .column {
+        flex: 50%;
+        max-width: 50%;
+    }
+
     .leftfoot {
         width: 50%;
         padding-left: 0px;
@@ -228,6 +256,7 @@ font-family: 'Intro', sans-serif;
         padding-right: 0px;
         float: right;
     }
+
 }
 
 @media only screen and (max-width: 400px) {
@@ -245,6 +274,11 @@ font-family: 'Intro', sans-serif;
         margin-top: 220px;
         line-height: 80%;
         letter-spacing: -9px;
+    }
+
+    .column {
+        flex: 100%;
+        max-width: 100%;
     }
 
     .maincontainer {
