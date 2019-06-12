@@ -33,15 +33,27 @@ body {
 }
 
 .tribal {
-/*    display: block;*/
     position: absolute;
     bottom: -80px;
     left: -90px;
-/*    vertical-align: middle;*/
     width: 220px;
     padding: 15px;
-    z-index: -0.5;
-    
+}
+
+.tribal1 {
+    position: absolute;
+    bottom: -50px;
+    left: 176px;
+    width: 200px;
+    padding: 15px;
+}
+
+.tribal2 {
+    position: absolute;
+    bottom: -250px;
+    left: -230px;
+    width: 500px;
+    padding: 15px;
 }
 
 
@@ -101,7 +113,7 @@ body {
     padding-right: 20px;
     padding-left: 20px;
     padding-bottom: 20px;
-    
+
 
 }
 
@@ -126,6 +138,7 @@ body {
     margin-bottom: 50px;
     margin-top: 75px;
 }
+
 .patternbg {
     background-image: url(images/PatternBG.png);
     background-size: 30%;
@@ -138,6 +151,7 @@ h1 {
     font-family: url(fonts/Intro.otf);
 
 }
+
 h2 {
     text-align: center;
     font-family: url(fonts/Intro%20Inline.otf);
@@ -150,6 +164,7 @@ h3 {
     margin-bottom: 40px;
     font-family: url(fonts/AdventPro-SemiBold.ttf);
 }
+
 p {
     font-family: url(fonts/AdventPro-Regular.ttf);
 }
@@ -164,9 +179,10 @@ p {
 .card-deck .card {
     min-width: 220px;
 }
+
 .gallery {
     padding: 15px;
-     background-color: white;
+    background-color: white;
 }
 
 .gallery:hover {
